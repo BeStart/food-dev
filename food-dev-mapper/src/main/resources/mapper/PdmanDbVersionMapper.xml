@@ -9,12 +9,4 @@
     <result column="VERSION_DESC" jdbcType="VARCHAR" property="versionDesc" />
     <result column="CREATED_TIME" jdbcType="VARCHAR" property="createdTime" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="com.yl.pojo.PdmanDbVersion">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <result column="DB_VERSION" jdbcType="VARCHAR" property="dbVersion" />
-    <result column="VERSION_DESC" jdbcType="VARCHAR" property="versionDesc" />
-    <result column="CREATED_TIME" jdbcType="VARCHAR" property="createdTime" />
-  </resultMap>
 </mapper>
